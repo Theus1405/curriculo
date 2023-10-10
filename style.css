@@ -1,0 +1,106 @@
+
+body{
+    margin: 0;
+}
+
+h1{
+    color: #003366;
+    font-size: 64px;
+    margin: 0;
+}
+
+h2{  
+    color: #333333;
+    font-size: 32px;
+    margin: 0;
+}
+
+p{
+    color:#666666;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+ul{
+    margin: 0;
+    /* tirando os espaço acima do sidebar */
+}
+
+.sidebar{
+    background-color: #003366;
+    width: 280px; /*largura*/
+    height: 100vh; /*altura - view height - unidade baseada 
+    na altura do navegador*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* formatando as listas que estão dentro do sidebar */
+.geral ul{
+    list-style-type: none;
+    padding: 0px;
+    padding-top: 65px;    
+}
+
+
+.geral img {
+    border: none;
+    border-radius: 50%;
+}
+
+/* formatando os links que estão dentro da <ul> dentro do sidebar */
+.geral ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.geral ul li{
+    padding-bottom: 33px;
+    font-size: 20px;
+    
+}
+
+.geral  {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    /* alinhamento no eixo "y" */
+}
+
+.content{
+width: 985px;
+margin-left: 50px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+.geral ul li  a:hover{
+color: black;
+padding-right: 10px;
+
+}
+
+.msociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.msociais img{
+    padding-right: 17px;
+    border-radius: 0px;
+    padding-top: 65.35px;
+}
